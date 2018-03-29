@@ -26,42 +26,53 @@
 
 %---------------------------------------------------------
   \cventry
-    {Software Engineer Intern in Developer Division} % Job title
-    {Microsoft Corp.} % Organization
+    {Software Engineer Intern on Hack Language} % Job title
+    {Facebook} % Organization
+    {London, UK} % Location
+    {Jan 2018 - Mar 2018} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Rearchitected Hack parser to be reactive, allowing parsing to be inlined with the computation of the result.}
+        %% \item {Significantly reduced memory and garbage collection overhead. Full-codebase (hundreds of thousands of files) end-to-end parse time decreased by 25\% for the type-checker (using most of the file contents) and up to 50\% for tools that use less.}
+        \item {25\% parse time reduction for the Hack type-checker (using most of the file contents) on the full-codebase.}
+        \item {Up to 50\% speed up for tools that use less information(facts extraction) on hundreds of thousands of files.}
+        \item {Developed a toolset to analyze and remove unnecessary build dependencies. Resulting in 2x speed up for some builds.}
+      \end{cvitems}
+    }
+  \cventry
+    {Software Engineer Intern on Developer Division} % Job title
+    {Microsoft} % Organization
     {Redmond, WA} % Location
     {Jul 2017 - Oct 2017} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Worked on advanced monitoring and alerting system.}
-        \item {Publishing composed metrics based on the telemetry data processing pipeline.}
-        \item {TypeScript; C\#; React; ASP.NET; Azure Log Analytics; Visual Studio Team Services; Office Fabric}
+        \item {Engineered a new workflow to automate raw telemetry data aggregation and transformation.}
+        \item {System monitors execution of user-defined query and publishes results back to data warehouse.}
+        \item {Used for intermediate metrics aggregation to reduce data volumes and speed up queries.}
       \end{cvitems}
     }
   \cventry
-    {Software Engineering Intern in Developer Infrastructure} % Job title
-    {Google Inc.} % Organization
+    {Software Engineering Intern on Developer Infrastructure} % Job title
+    {Google} % Organization
     {Mountain View, CA} % Location
     {Apr 2017 - Jul 2017} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Performed ML feature engineering to create more complicated and robust models.}
-        \item {Trained model for build/test run-time prediction.}
-        \item {Investigated issues in complex build system at the Google scale.}
-        \item {Created tools for ML model debugging and batching service efficiency evaluation.}
-        \item {Java; Go; Python; Machine Learning; SQL; MapReduce; NumPy; matplotlib; Closure Templates}
+        \item {Research on build/test time prediction. Performed training data analysis, model evaluation and feature engineering.}
+        \item {Created tools for ML models debugging/visualization and core service efficiency evaluation.}
+        \item {Helped investigating and managing incidents in complex build infrastructure at Google scale.}
       \end{cvitems}
     }
   \cventry
-    {Software Engineering Intern in Developer Infrastructure} % Job title
-    {Google Inc.} % Organization
+    {Software Engineering Intern on Developer Infrastructure} % Job title
+    {Google} % Organization
     {Mountain View, CA} % Location
     {May 2016 - Aug 2016} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Designed service that rearranges targets inside builds to reduce overall resources usage.}
-        \item {Performed evaluation of different batching strategies, based on memory and time optimization.}
-        \item {Developed ML models to predict build memory usage and avoid out of memory errors.}
-        \item {Java; Go; Python; Machine Learning; SQL; Google Cloud Platform; Guice; gRPC; Protocol Buffers}
+        \item {Engineered a service that clasterizes build targets to reduce overall resources usage.}
+        \item {Performed evaluation of different batching strategies: memory, run-time optimization.}
+        \item {Trained ML models to predict build memory usage and avoid out of memory errors.}
       \end{cvitems}
     }
 %---------------------------------------------------------
